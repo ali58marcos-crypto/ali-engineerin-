@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Engineering</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #334155;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 800px;
+      margin: auto;
+      color: #475569;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      background: #0f172a;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h3 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #e2e8f0;
+      background: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Ali Engineering</h1>
+      <div>
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Ingénieur en mécanique et étudiant en énergies renouvelables</h2>
+    <p>
+      Bienvenue sur mon site professionnel. Je présente ici mon parcours,
+      mes compétences techniques, ainsi que mes projets en conception mécanique,
+      modélisation 3D et systèmes énergétiques.
+    </p>
+    <a class="btn" href="#contact">Me contacter</a>
+  </section>
+
+  <section id="about">
+    <h3>À propos</h3>
+    <p>
+      Je suis passionné par la conception mécanique, les systèmes thermiques
+      et les énergies renouvelables. Mon parcours m’a permis de développer
+      des compétences solides en modélisation, simulation et résolution de problèmes techniques.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h3>Compétences</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>SolidWorks</h4>
+        <p>Modélisation 3D, assemblages, dessins techniques et conception mécanique.</p>
+      </div>
+      <div class="card">
+        <h4>MATLAB</h4>
+        <p>Calcul scientifique, analyse et étude des systèmes techniques.</p>
+      </div>
+      <div class="card">
+        <h4>Énergies renouvelables</h4>
+        <p>Étude des systèmes solaires thermiques et optimisation énergétique.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h3>Projets</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Système de refroidissement par absorption</h4>
+        <p>Projet de conception d’un système de refroidissement sans compresseur utilisant l’énergie solaire.</p>
+      </div>
+      <div class="card">
+        <h4>Conception de pièces mécaniques</h4>
+        <p>Réalisation de modèles 3D et de plans techniques destinés à des applications académiques et industrielles.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <div class="card">
+      <p><strong>Téléphone :</strong> 0669777661</p>
+      <p><strong>Ville :</strong> Ouargla, Algérie</p>
+      <p><strong>Email :</strong> ali58marcos@gmail.com</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Ali Engineering. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
